@@ -8363,6 +8363,10 @@ textarea.form-control-lg {
   font-family: 'Lilita One', cursive;
 }
 
+.perksLogo {
+  width:40%;
+}
+
 .mb-5 {
   margin-bottom: 3rem !important;
 }
@@ -11926,6 +11930,7 @@ color: var(--bs-pink)
   width: 55%;
   padding: 10px;
 }
+
 
 @media (min-width: 576px) {
   .navbar-expand-sm {
