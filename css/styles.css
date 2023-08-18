@@ -690,7 +690,7 @@ progress {
 .container-sm {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
-  width: 100%;
+  width: 60%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
@@ -8425,7 +8425,7 @@ textarea.form-control-lg {
 }
 
 .p-5 {
-  padding: 3rem !important;
+  padding: 2.5rem !important;
 }
 
 .px-0 {
@@ -11697,13 +11697,23 @@ color: var(--bs-pink)
   font-family: 'Roboto', sans-serif;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+
+.nav-item {
+  font-size: 120%;
+  padding-right: 50px;
+}
+
+.nav-item:hover {
+  color: var(--bs-pink);
+}
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
   }
 }
+
 .nav-link:hover, .nav-link:focus {
-  color: var(--bs-nav-link-hover-color);
+  color: var(--bs-pink);
 }
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
